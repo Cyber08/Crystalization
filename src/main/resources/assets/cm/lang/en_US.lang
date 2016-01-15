@@ -1,0 +1,11 @@
+item.fire_crystal.name=Fire Crystal
+item.water_crystal.name=Water Crystal
+item.air_crystal.name=Air Crystal
+item.unstable_crystal.name=Unstable Crystal
+item.earth_crystal.name=Earth Crystal
+
+tile.f_crystal_ore.name=Fire Crystal Ore
+tile.w_crystal_ore.name=Water Crystal Ore
+tile.a_crystal_ore.name=Air Crystal Ore
+tile.u_crystal_ore.name=Unstable Crystal Ore
+tile.e_crystal_ore.name=Earth Crystal Ore
