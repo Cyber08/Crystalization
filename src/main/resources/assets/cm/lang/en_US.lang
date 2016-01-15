@@ -9,3 +9,5 @@ tile.w_crystal_ore.name=Water Crystal Ore
 tile.a_crystal_ore.name=Air Crystal Ore
 tile.u_crystal_ore.name=Unstable Crystal Ore
 tile.e_crystal_ore.name=Earth Crystal Ore
+
+itemGroup.tabCrystal=Crystallization

@@ -1,4 +1,5 @@
 package cyber.crystal.init;
+import cyber.crystal.CrystalMod;
 import cyber.crystal.Reference;
 
 import net.minecraft.block.Block;
@@ -16,13 +17,14 @@ public class CrystalBlocks {
 	public static Block a_crystal_ore;
 	public static Block u_crystal_ore;
 	
+	
 	public static void init()
 	{
-		f_crystal_ore = new Block(Material.rock).setUnlocalizedName("f_crystal_ore");
-		w_crystal_ore = new Block(Material.rock).setUnlocalizedName("w_crystal_ore");
-		e_crystal_ore = new Block(Material.rock).setUnlocalizedName("e_crystal_ore");
-		a_crystal_ore = new Block(Material.rock).setUnlocalizedName("a_crystal_ore");
-		u_crystal_ore = new Block(Material.rock).setUnlocalizedName("u_crystal_ore");
+		f_crystal_ore = new Block(Material.rock).setUnlocalizedName("f_crystal_ore").setCreativeTab(CrystalMod.tabCrystal);
+		w_crystal_ore = new Block(Material.rock).setUnlocalizedName("w_crystal_ore").setCreativeTab(CrystalMod.tabCrystal);
+		e_crystal_ore = new Block(Material.rock).setUnlocalizedName("e_crystal_ore").setCreativeTab(CrystalMod.tabCrystal);
+		a_crystal_ore = new Block(Material.rock).setUnlocalizedName("a_crystal_ore").setCreativeTab(CrystalMod.tabCrystal);
+		u_crystal_ore = new Block(Material.rock).setUnlocalizedName("u_crystal_ore").setCreativeTab(CrystalMod.tabCrystal);
 	}
 	public static void register()
 	{

@@ -2,6 +2,7 @@ package cyber.crystal.init;
 
 import com.sun.org.apache.xpath.internal.operations.Variable;
 
+import cyber.crystal.CrystalMod;
 import cyber.crystal.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -21,11 +22,11 @@ public class CrystalItems {
 	
 	public static void init()
 	{
-		fire_crystal = new Item().setUnlocalizedName("fire_crystal");
-		water_crystal = new Item().setUnlocalizedName("water_crystal");
-		air_crystal = new Item().setUnlocalizedName("air_crystal");
-		earth_crystal = new Item().setUnlocalizedName("earth_crystal");
-		unstable_crystal = new Item().setUnlocalizedName("unstable_crystal");
+		fire_crystal = new Item().setUnlocalizedName("fire_crystal").setCreativeTab(CrystalMod.tabCrystal);
+		water_crystal = new Item().setUnlocalizedName("water_crystal").setCreativeTab(CrystalMod.tabCrystal);
+		air_crystal = new Item().setUnlocalizedName("air_crystal").setCreativeTab(CrystalMod.tabCrystal);
+		earth_crystal = new Item().setUnlocalizedName("earth_crystal").setCreativeTab(CrystalMod.tabCrystal);
+		unstable_crystal = new Item().setUnlocalizedName("unstable_crystal").setCreativeTab(CrystalMod.tabCrystal);
 	}
 	public static void register()
 	{
